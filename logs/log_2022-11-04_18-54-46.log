@@ -1,0 +1,78 @@
+
+-----
+Test: tests/test_google_maps_api.py::Test_create_palce::test_create_new_place (call)
+Time: 2022-11-04 18:54:46.085365
+Request method: POST
+Request method: POST
+
+Responce code: 200
+Responce text: {"status":"OK","place_id":"1e2867de65035ce954e4d76529eed6d2","scope":"APP","reference":"0bb0e1a24e214ca9067ca18dcd50096a0bb0e1a24e214ca9067ca18dcd50096a","id":"0bb0e1a24e214ca9067ca18dcd50096a"}
+Responce Headers: {'Date': 'Fri, 04 Nov 2022 15:54:47 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '194', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Responce Cookies: {}
+
+-----
+
+-----
+Test: tests/test_google_maps_api.py::Test_create_palce::test_create_new_place (call)
+Time: 2022-11-04 18:54:46.946014
+Request method: GET
+Request method: GET
+
+Responce code: 200
+Responce text: {"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"29, side layout, cohen 09","types":"shoe park,shop","website":"http:\/\/google.com","language":"French-IN"}
+Responce Headers: {'Date': 'Fri, 04 Nov 2022 15:54:47 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '257', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Responce Cookies: {}
+
+-----
+
+-----
+Test: tests/test_google_maps_api.py::Test_create_palce::test_create_new_place (call)
+Time: 2022-11-04 18:54:47.849441
+Request method: PUT
+Request method: PUT
+
+Responce code: 200
+Responce text: {"msg":"Address successfully updated"}
+Responce Headers: {'Date': 'Fri, 04 Nov 2022 15:54:48 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '38', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Responce Cookies: {}
+
+-----
+
+-----
+Test: tests/test_google_maps_api.py::Test_create_palce::test_create_new_place (call)
+Time: 2022-11-04 18:54:48.861750
+Request method: GET
+Request method: GET
+
+Responce code: 200
+Responce text: {"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"100 Lenina street, RU","types":"shoe park,shop","website":"http:\/\/google.com","language":"French-IN"}
+Responce Headers: {'Date': 'Fri, 04 Nov 2022 15:54:49 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '253', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Responce Cookies: {}
+
+-----
+
+-----
+Test: tests/test_google_maps_api.py::Test_create_palce::test_create_new_place (call)
+Time: 2022-11-04 18:54:49.721659
+Request method: DELETE
+Request method: DELETE
+
+Responce code: 200
+Responce text: {"status":"OK"}
+Responce Headers: {'Date': 'Fri, 04 Nov 2022 15:54:50 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '15', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Responce Cookies: {}
+
+-----
+
+-----
+Test: tests/test_google_maps_api.py::Test_create_palce::test_create_new_place (call)
+Time: 2022-11-04 18:54:50.737049
+Request method: GET
+Request method: GET
+
+Responce code: 404
+Responce text: {"msg":"Get operation failed, looks like place_id  doesn't exists"}
+Responce Headers: {'Date': 'Fri, 04 Nov 2022 15:54:51 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '67', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Responce Cookies: {}
+
+-----
